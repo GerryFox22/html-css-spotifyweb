@@ -15,7 +15,7 @@ body {
 #upgrade-button button {
     border: 1px solid white;
     border-radius: 20px;
-    background-color: #060622;
+    background-color: #07080f;
     color: white;
     padding: 10px 40px;
     cursor: pointer;
@@ -38,7 +38,7 @@ body {
     height: 95px;
     width: 100%;
     position: relative;
-    background-color: #060622;
+    background-color: #07080f;
 
 }
 .lightgray-icon {
@@ -57,7 +57,7 @@ body {
 
 /* Main */
 
-/* Navigator */
+/* Main Navigator */
 
 .main-container {
     display: flex;
@@ -69,7 +69,7 @@ body {
     justify-content: space-between;
     padding: 0 20px;
     color: #9c9999;
-    width: 250px;
+    min-width: 250px;
     height: 100%;
     flex-direction: column;
     background-color: black;
@@ -164,4 +164,23 @@ body {
 
 #button-playlist {
     padding-bottom: 10px;
+}
+
+/* Main music container */
+
+.music-container {
+    background-color: #080810fa;
+    width: 100%;
+    height: calc(100vh - 95px);
+    overflow-y: scroll;
+}
+
+.header-music-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header-music-container li {
+    display: inline-block;
+    padding-right: 20px;
 }
