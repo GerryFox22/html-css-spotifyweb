@@ -9,3 +9,53 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Header */
+
+#upgrade-button button {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #060622;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.head-page {
+    padding: 20px 5px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  
+}
+
+.navigator {
+    /* text-align: center; */
+    width: 250px;
+    flex-direction: column;
+    background-color: black;
+}
+
+#spotify-logo img {
+    color: white;
+    width: 150px;
+}
+
+.header-container {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background-color: #060622;
+
+}
+.lightgray-icon {
+    color: lightgray;
+}
+
+#spotify-logo {
+    background-color: black;
+    padding: 20px 5px;
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+}
