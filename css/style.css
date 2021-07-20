@@ -29,33 +29,139 @@ body {
   
 }
 
-.navigator {
-    /* text-align: center; */
-    width: 250px;
-    flex-direction: column;
-    background-color: black;
-}
-
 #spotify-logo img {
     color: white;
     width: 150px;
 }
 
 .header-container {
-    height: 80px;
+    height: 95px;
     width: 100%;
     position: relative;
     background-color: #060622;
 
 }
 .lightgray-icon {
-    color: lightgray;
+    padding-right: 5px;
+    font-size: 1.3em;
+    color: #9c9999;
 }
 
 #spotify-logo {
     background-color: black;
-    padding: 20px 5px;
+    padding: 20px 18px;
     width: 250px;
     height: 100%;
     display: inline-block;
+}
+
+/* Main */
+
+/* Navigator */
+
+.main-container {
+    display: flex;
+    height: calc(100vh - 95px);
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #9c9999;
+    width: 250px;
+    height: 100%;
+    flex-direction: column;
+    background-color: black;
+}
+
+.text-decoration-none {
+    font-weight: 600;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #9c9999;
+}
+
+.icon-text {
+    display: inline-block;
+}
+
+.navigator ul li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.page-comands img {
+    filter: invert(0.1);
+    width: 25px;
+    vertical-align: middle;
+}
+
+.page-comands {
+    padding-bottom: 20px;
+}
+
+.playlist-container h4 {
+    padding-bottom: 15px;
+    color: white;
+}
+
+.footer-installation {
+    padding: 10px 0;
+}
+
+.footer-icon {
+    font-size: 0.7em;
+    padding-right: 5px;
+}
+
+.footer-installation img {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.footer-installation .text-decoration-none {
+    padding-left: 5px;
+    
+}
+
+.footer-profile img {
+    border-radius: 50%;
+    background-color: gray;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.footer-profile {
+    padding: 15px 0;
+}
+
+.footer-profile span {
+    font-size: 0.8em;
+    padding-left: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+
+#button-playlist button {
+    background-color: #9c9999;
+    width: 35px;
+    height: 35px;
+}
+
+#button-playlist .plus-playlist {
+    font-size: 1.3em;
+}
+
+#button-playlist a {
+    padding-left: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #9c9999;
+}
+
+#button-playlist {
+    padding-bottom: 10px;
 }
