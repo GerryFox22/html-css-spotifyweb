@@ -10,6 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 /* Header */
 
 #upgrade-button button {
@@ -168,6 +172,7 @@ body {
 
 /* Main music container */
 
+/* Header music container */
 .music-container {
     background-color: #080810fa;
     width: 100%;
@@ -183,4 +188,40 @@ body {
 .header-music-container li {
     display: inline-block;
     padding-right: 20px;
+}
+
+/* Playlist music container */
+
+.playlist-music-container {
+    padding: 20px;
+}
+
+.wrap-music-container h1 {
+    font-size: 1.5em;
+    color: white;
+}
+
+
+.single-artist {
+    width: 15%;
+    text-align: center;
+    color: white;
+    margin: 0 15px 15px 0;
+}
+
+.single-artist h4 {
+    font-size: 1.1em;
+    padding: 10px 0;
+}
+
+.single-artist p {
+    color: gray;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.artists-container {
+    padding: 35px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
