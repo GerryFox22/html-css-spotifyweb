@@ -348,3 +348,80 @@ img{
 .footer-icon-container {
     padding: 10px;
 }
+
+
+.playbar-icon {
+    vertical-align: middle;
+    color: white;
+    margin-right: 25px;
+}
+
+.left-right-comands{
+    font-size: 1.5em;
+}
+
+.play-bar {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.play-comand {
+    padding: 0 5px 0 5px;
+    font-size: 2em;
+}
+
+.time-play-bar {
+    color: white;
+    display: inline-block;
+}
+
+.time-box {
+    display: inline-block;
+    width: 80%;
+    height: 4px;
+    background: #9c9999;
+    vertical-align: middle;
+    margin: 0 20px
+}
+.time-bar {
+    width: 100%;
+    text-align: center;
+}
+
+/* .footer-section {
+    width: 50%;
+} */
+
+.footer-section-central {
+    width: 40vw;
+}
+
+.footer-section-right {
+    padding-top: 30px;
+}
+
+.volume-bar,
+.footer-end-icon {
+    float: left;
+
+}
+
+.footer-end-icon a,
+.footer-end-volume a {
+    color: white;
+    padding: 10px;
+}
+
+.volume-bar {
+    background-color: #9c9999;
+    height: 4px;
+    width: 100px;
+    margin-top: 9px;
+}
+
+.second-box {
+    background-color: white;
+    height: 5px;
+    width: 25%;
+}
