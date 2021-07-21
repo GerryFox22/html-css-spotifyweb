@@ -297,3 +297,54 @@ img{
     font-weight: 600;
     padding-top: 15px;
 }
+
+/* Footer */
+
+.footer-container {
+    padding: 10px;
+    height: 95px;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reproduced-music.clearfix {
+    padding-top: 10px;
+    float: left;
+    margin-right: 30px;
+}
+
+.reproduced-music-img {
+    float: left;
+    width: 50px;
+}
+
+.reproduced-music-info {
+    float: left;
+    padding: 10px;
+    line-height: 15px;
+}
+
+.reproduced-music-info h5 {
+    color: white;
+}
+
+.reproduced-music-info span {
+    font-size: 0.67em;
+    color: #9c9999;
+    font-weight: 600;
+}
+
+.reroduced-music-icon.clearfix {
+    float: left;
+    padding-top: 20px;
+}
+
+.footer-icon-container a {
+    color: #9c9999;
+    padding-right: 13px;
+}
+
+.footer-icon-container {
+    padding: 10px;
+}
