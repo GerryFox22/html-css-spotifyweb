@@ -20,33 +20,19 @@
 <body>
     <div class="container">
     
-        <!-- Header -->
-        <header id="header">
-            <!-- Header container -->
-            <div class="header-container">
-                <!-- Spotify logo -->
-                <div id="spotify-logo">
-                    <img src="img/logo.svg" alt="">
-                </div>
-                <!-- Header Button -->
-                <div class="head-page">
-                    <div id="upgrade-button">
-                        <button>EFFETTUA L'UPGRADE</button>
-                    </div>
-                </div>
-
-            
-            </div>
-        </header>
-
         <!-- Main -->
         <main id="main">
             <!--Main Container  -->
-            <div class="main-container">
+            <div class="main-container clearfix">
                 <!-- Navigator Container -->
                 <div class="navigator">
                     <!-- Flex space between container -->
                     <div class="column-spacebetween">
+                        <!-- Spotify logo -->
+                        <div id="spotify-logo">
+                            <img src="img/logo.svg" alt="">
+                        </div>
+
                         <!-- Comands -->
                         <div class="page-comands">
                             <ul>
@@ -101,6 +87,12 @@
 
                 <div class="music-container">
 
+                    <div class="head-page">
+                        <div id="upgrade-button">
+                            <button>EFFETTUA L'UPGRADE</button>
+                        </div>
+                    </div>
+
                     <div class="header-music-container">
 
                         <ul>
@@ -122,39 +114,72 @@
 
                             <div class="artists-container">
 
+                                
+
+
                                 <div class="single-artist">
-                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="container-img">
+                                        <img src="img/metal_lifting.jpg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
                                     <h4>Heavy Metal</h4> 
                                     <p>Subtitle</p>
                                 </div>
 
                                 <div class="single-artist">
-                                    <img src="img/metal_lifting.jpg" alt="">
-                                    <h4>Heavy Metal</h4> 
+                                    <div class="container-img">
+                                        <img src="img/stranger.jpeg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>Stranger Things, Vol. 1 (a Netflix original Series Soundtrack)</h4> 
+                                    <p>Kyle Dixon & Michael Stein</p>
+                                </div>
+
+                                <div class="single-artist">
+                                    <div class="container-img">
+                                        <img src="img/aquietplace.jpeg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>A quiet place</h4> 
                                     <p>Subtitle</p>
                                 </div>
 
                                 <div class="single-artist">
-                                    <img src="img/metal_lifting.jpg" alt="">
-                                    <h4>Heavy Metal</h4> 
+                                    <div class="container-img">
+                                        <img src="img/split.jpeg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>Split</h4> 
                                     <p>Subtitle</p>
                                 </div>
 
                                 <div class="single-artist">
-                                    <img src="img/metal_lifting.jpg" alt="">
-                                    <h4>Heavy Metal</h4> 
+                                    <div class="container-img">
+                                        <img src="img/cure.jpeg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>A cure for wellness</h4> 
                                     <p>Subtitle</p>
                                 </div>
 
                                 <div class="single-artist">
-                                    <img src="img/metal_lifting.jpg" alt="">
-                                    <h4>Heavy Metal</h4> 
-                                    <p>Subtitle</p>
-                                </div>
-
-                                <div class="single-artist">
-                                    <img src="img/metal_lifting.jpg" alt="">
-                                    <h4>Heavy Metal</h4> 
+                                    <div class="container-img">
+                                        <img src="img/sinister.jpeg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>Sinister</h4> 
                                     <p>Subtitle</p>
                                 </div>
                                     
@@ -163,13 +188,98 @@
 
                         </div>
 
+                        <div class="wrap-music-container">
 
-                        <div>
+                            <h1>Creato per John Doe</h1>
 
+                            <p id="music-container-p">Più ascolti, più accurati saranno i suggerimenti.</p>
+    
+                            <div class="artists-container">
+    
+                                <div class="single-artist">
+                                    <div class="container-img">
+                                        <img src="img/radar.jpeg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>Release Radar</h4> 
+                                
+                                </div>
+
+                                <div class="single-artist">
+                                    <div class="container-img">
+                                        <img src="img/mixdaily.jpeg" alt="metal img">
+                                        <div class="overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>Daily Mix 1</h4> 
+                            
+                                </div>
+
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="wrap-music-container">
+
+                            <h1>Artisti più popolari</h1>
+
+                            <p id="music-container-p">Più ascolti, più accurati saranno i suggerimenti.</p>
+    
+                            <div class="artists-container">
+    
+                                <div class="single-artist">
+                                    <div class="container-img">
+                                        <img class="circle-img" src="img/youg.jpeg" alt="metal img">
+                                        <div class="overlay circle-overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>Lana del Rey</h4> 
+                                
+                                </div>
+
+                                <div class="single-artist">
+                                    <div class="container-img">
+                                        <img class="circle-img" src="img/einaudi.jpeg" alt="metal img">
+                                        <div class="overlay circle-overlay">
+                                          <div class="play-icon"><i class="far fa-play-circle"></i></div>
+                                        </div>
+                                    </div>
+                                    <h4>Ludovico Einaudi</h4> 
+                            
+                                </div>
+
+                            </div>
+
+                            
                         </div>
 
 
+
                     </div>
+
+                    
+                    <!-- <div class="playlist-two-artist">
+
+                        <h1>Recently played</h1>
+                        <p>sadasdas</p>
+
+                        <div class="single-artist">
+                            <img src="img/metal_lifting.jpg" alt="">
+                            <h4>Heavy Metal</h4> 
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="single-artist">
+                            <img src="img/metal_lifting.jpg" alt="">
+                            <h4>Heavy Metal</h4> 
+                            <p>Subtitle</p>
+                        </div>
+
+                    </div> -->
 
 
                 </div>

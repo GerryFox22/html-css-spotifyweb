@@ -14,6 +14,12 @@ img{
     width: 100%;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Header */
 
 #upgrade-button button {
@@ -26,10 +32,13 @@ img{
 }
 
 .head-page {
+    background-color: rgba;
     padding: 20px 5px;
-    display: inline-block;
-    position: absolute;
-    right: 0;
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* right: 0; */
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
   
 }
 
@@ -52,11 +61,11 @@ img{
 }
 
 #spotify-logo {
-    background-color: black;
-    padding: 20px 18px;
-    width: 250px;
+    /* background-color: black; */
+    padding-bottom: 30px;
+    /* width: 250px;
     height: 100%;
-    display: inline-block;
+    display: inline-block; */
 }
 
 /* Main */
@@ -64,14 +73,14 @@ img{
 /* Main Navigator */
 
 .main-container {
-    display: flex;
     height: calc(100vh - 95px);
 }
 
 .navigator {
+    float: left;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 20px;
     color: #9c9999;
     min-width: 250px;
     height: 100%;
@@ -174,15 +183,16 @@ img{
 
 /* Header music container */
 .music-container {
+    float: left;
     background-color: #080810fa;
-    width: 100%;
+    width: calc(100% - 250px);
     height: calc(100vh - 95px);
     overflow-y: scroll;
 }
 
 .header-music-container {
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .header-music-container li {
@@ -201,6 +211,9 @@ img{
     color: white;
 }
 
+.wrap-music-container {
+    padding-top: 20px;
+}
 
 .single-artist {
     width: 15%;
@@ -221,7 +234,66 @@ img{
 }
 
 .artists-container {
-    padding: 35px 0;
+    padding-top: 35px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+/* Overlay play */
+
+.container-img {
+    position: relative;
+    
+}
+  
+.container-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.container-img .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+   
+.container-img:hover .overlay {
+    opacity: 1;
+}
+
+.play-icon {
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.overlay.circle-overlay {
+    border-radius: 50%;
+}
+
+/* Fine codice Overlay */
+
+
+#music-container-p {
+    color: gray;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-top: 15px;
 }
