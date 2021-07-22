@@ -20,6 +20,45 @@ img{
     clear: both;
 }
 
+/* Hover  */
+
+a:hover {
+    color: white;
+}
+
+a i:hover {
+    color: white;
+}
+
+.second-box:hover {
+    background-color: #1DB954;
+    cursor: pointer;
+}
+
+.second-box:hover .white-circle {
+    display: block;
+}
+
+.white-circle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    transform: translate(10px, -5px);
+    display: none;
+}
+
+#upgrade-button button:hover {
+    transform: scale(1.1);
+}
+
+.playbar-icon.play-comand:hover {
+    transform: scale(1.1);
+}
+
 /* Header */
 
 #upgrade-button button {
@@ -32,15 +71,16 @@ img{
 }
 
 .head-page {
-    background-color: rgba;
-    padding: 20px 5px;
-    /* display: inline-block; */
-    /* position: absolute; */
-    /* right: 0; */
+    width: calc(100% - 250px);
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    height: 75px;
+    padding: 20px 15px;
     text-align: right;
-    background-color: rgba(0, 0, 0, 0.5);
-  
+    background-color: black;
 }
+
 
 #spotify-logo img {
     color: white;
@@ -86,6 +126,7 @@ img{
     height: 100%;
     flex-direction: column;
     background-color: black;
+    overflow: hidden;
 }
 
 .text-decoration-none {
@@ -195,6 +236,7 @@ img{
 }
 
 .header-music-container {
+    margin-top: 75px;
     text-align: center;
     padding: 20px 20px 0 20px;
 }
@@ -388,7 +430,8 @@ img{
     height: 4px;
     background: #9c9999;
     vertical-align: middle;
-    margin: 0 20px
+    margin: 0 20px;
+    border-radius: 5px;
 }
 .time-bar {
     width: 100%;
@@ -424,12 +467,15 @@ img{
     height: 4px;
     width: 100px;
     margin-top: 9px;
+    border-radius: 5px;
 }
 
 .second-box {
+    position: relative;
     background-color: white;
     height: 5px;
     width: 25%;
+    border-radius: 5px;
 }
 
 /* Media Queries */
@@ -518,6 +564,18 @@ img{
         height: 100%;
         flex-direction: column;
         background-color: black;
+        
+    }
+
+    .head-page {
+        width: calc(100% - 65px);
+        position: fixed;
+        right: 0;
+        z-index: 10;
+        height: 75px;
+        padding: 20px 15px;
+        text-align: right;
+        background-color: #06060c;
     }
 
     .music-container {
